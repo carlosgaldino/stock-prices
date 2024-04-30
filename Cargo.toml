@@ -9,3 +9,4 @@ edition = "2021"
 async-std = { version = "1.12.0", features = ["attributes"] }
 serde = { version = "1.0.171", features = ["serde_derive"] }
 surf = "2.3.2"
+time = { version = "0.3.22", features = ["formatting", "macros"] }
